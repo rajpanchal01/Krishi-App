@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Krishi</string>
+    <string name="title_activity_main_farmer">MainActivityFarmer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">user@email.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="news_updates"><![CDATA[News & Updates]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="rice">Rice is the seed of the grass species Oryza sativa (Asian rice) or less commonly Oryza glaberrima (African rice). The name wild rice is usually used for species of the genera Zizania and Porteresia, both wild and domesticated, although the term may also be used for primitive or uncultivated varieties of Oryza. As a cereal grain, domesticated rice is the most widely consumed staple food for over half of the world\'s human population,[Liu 1] especially in Asia and Africa. It is the agricultural commodity with the third-highest worldwide production (rice, 741.5 million metric tons (817.4 million short tons) in 2014), after sugarcane (1.9 billion metric tons (2.1 billion short tons)) and maize (1.0 billion metric tons (1.1 billion short tons)). Since sizable portions of sugarcane and maize crops are used for purposes other than human consumption, rice is the most important food crop with regard to human nutrition and caloric intake, providing more than one-fifth of the calories consumed worldwide by humans There are many varieties of rice and culinary preferences tend to vary regionally.</string>
+    <string name="wheat">Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food. The many species of wheat together make up the genus Triticum; the most widely grown is common wheat (T. aestivum). The archaeological record suggests that wheat was first cultivated in the regions of the Fertile Crescent around 9600 BCE. Botanically, the wheat kernel is a type of fruit called a caryopsis.
+
+        Wheat is grown on more land area than any other food crop (220.4 million hectares, 2014). World trade in wheat is greater than for all other crops combined. In 2017, world production of wheat was 772 million tonnes, with a forecast of 2019 production at 766 million tonnes, making it the second most-produced cereal after maize. Since 1960, world production of wheat and other grain crops has tripled and is expected to grow further through the middle of the 21st century. Global demand for wheat is increasing due to the unique viscoelastic and adhesive properties of gluten proteins, which facilitate the production of processed foods, whose consumption is increasing as a result of the worldwide industrialization process and the westernization of the diet.</string>
+
+    <string name="maize">Maize (/meɪz/ MAYZ; Zea mays subsp. mays, from Spanish: maíz after Taino: mahiz), also known as corn (North American and Australian English), is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces pollen inflorescences and separate ovuliferous inflorescences called ears that yield kernels or seeds, which are fruits.
+
+        Maize has become a staple food in many parts of the world, with the total production of maize surpassing that of wheat or rice. In addition to being consumed directly by humans (often in the form of masa), maize is also used for corn ethanol, animal feed and other maize products, such as corn starch and corn syrup. The six major types of maize are dent corn, flint corn, pod corn, popcorn, flour corn, and sweet corn. Sugar-rich varieties called sweet corn are usually grown for human consumption as kernels, while field corn varieties are used for animal feed, various corn-based human food uses (including grinding into cornmeal or masa, pressing into corn oil, and fermentation and distillation into alcoholic beverages like bourbon whiskey), and as chemical feedstocks. Maize is also used in making ethanol and other biofuels.</string>
+
+    <string name="cotton">Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus Gossypium in the mallow family Malvaceae. The fiber is almost pure cellulose. Under natural conditions, the cotton bolls will increase the dispersal of the seeds.
+
+        The plant is a shrub native to tropical and subtropical regions around the world, including the Americas, Africa, Egypt and India. The greatest diversity of wild cotton species is found in Mexico, followed by Australia and Africa.[1] Cotton was independently domesticated in the Old and New Worlds.
+
+        The fiber is most often spun into yarn or thread and used to make a soft, breathable textile. The use of cotton for fabric is known to date to prehistoric times; fragments of cotton fabric dated to the fifth millennium BC have been found in the Indus Valley Civilization, as well as fabric remnants dated back to 6000 BC in Peru. Although cultivated since antiquity, it was the invention of the cotton gin that lowered the cost of production that led to its widespread use, and it is the most widely used natural fiber cloth in clothing today.</string>
+
+
+    <string name="sugarcane">Sugarcane or sugar cane refers to several species and hybrids of tall perennial grass in the genus Saccharum, tribe Andropogoneae, that are used for sugar production. The plants are 2-6 m (6-20 ft) tall with stout, jointed, fibrous stalks that are rich in sucrose, which accumulates in the stalk internodes. Sugarcanes belong to the grass family, Poaceae, an economically important flowering plant family that includes maize, wheat, rice, and sorghum, and many forage crops. It is native to the warm, temperate tropical regions of India, Southeast Asia, and New Guinea. The plant is also grown for biofuel production, especially in Brazil, as the canes can be used directly to produce ethyl alcohol (ethanol).
+
+        Sugarcane is the world\'s largest crop by production quantity, with 1.8 billion tonnes produced in 2017, with Brazil accounting for 40% of the world total. In 2012, the Food and Agriculture Organization estimated it was cultivated on about 26×106 ha (64×106 acres), in more than 90 countries.
+
+        </string>
+
+
+    <string name="millet">Millets (/ˈmɪlɪts/) are a group of highly variable small-seeded grasses, widely grown around the world as cereal crops or grains for fodder and human food.
+
+        Millets are important crops in the semiarid tropics of Asia and Africa (especially in India, Mali, Nigeria, and Niger), with 97% of millet production in developing countries. The crop is favored due to its productivity and short growing season under dry, high-temperature conditions.
+
+        Millets are indigenous to many parts of the world. The most widely grown millet is pearl millet, which is an important crop in India and parts of Africa. Finger millet, proso millet, and foxtail millet are also important crop species.
+
+        Millets may have been consumed by humans for about 7,000 years and potentially had "a pivotal role in the rise of multi-crop agriculture and settled farming societies."</string>
+
+    <string name="tea">Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to China and East Asia. After water, it is the most widely consumed drink in the world. There are many different types of tea; some, like Chinese greens and Darjeeling, have a cooling, slightly bitter, and astringent flavour, while others have vastly different profiles that include sweet, nutty, floral, or grassy notes. Tea has a stimulating effect in humans primarily due to its caffeine content.
+
+        The tea plant originated in the region encompassing today\'s Southwest China, Tibet, north Myanmar and Northeast India, where it was used as a medicinal drink by various ethnic groups. An early credible record of tea drinking dates to the 3rd century AD, in a medical text written by Hua Tuo. It was popularised as a recreational drink during the Chinese Tang dynasty, and tea drinking spread to other East Asian countries. Portuguese priests and merchants introduced it to Europe during the 16th century. During the 17th century, drinking tea became fashionable among the English, who started to plant tea on a large scale in India.</string>
+
+    <string name="mustard">Mustard (Brassica spp.), a native to temperate regions of Europe, was one of the first domesticated crops. This crop\'s economic value resulted in its wide dispersal and it has been grown as a herb in Asia, North Africa, and Europe for thousands of years. Ancient Greeks and Romans enjoyed mustard (sinapis) seed as a paste and powder. In about 1300, the name "mustard" was given to the condiment made by mixing mustum, which is the Latin word for unfermented grape juice, with ground mustard seeds.
+
+    </string>
+</resources>

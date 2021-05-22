@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/newsFrag"
+            android:icon="@drawable/news"
+            android:title="@string/news_updates" />
+        <item
+            android:id="@+id/reminderFrag"
+            android:icon="@drawable/notification"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/weatherFrag"
+            android:icon="@drawable/weather"
+            android:title="Weather Forecast" />
+        <item
+            android:id="@+id/cropInfoFrag"
+            android:icon="@drawable/crop"
+            android:title="Crop Information" />
+        <item
+            android:id="@+id/sellCropsFrag"
+            android:icon="@drawable/sale"
+            android:title="Sell Crops" />
+    </group>
+
+    <item android:title="Account" >
+        <menu>
+            <item
+                android:id="@+id/editProfile"
+                android:icon="@drawable/anonymous"
+                android:title="Edit Profile"
+                android:onClick="editProfile"/>
+            <item
+                android:id="@+id/signOut"
+                android:icon="@drawable/logout"
+                android:title="Sign Out"
+                android:onClick="signOut"/>
+        </menu>
+    </item>
+</menu>

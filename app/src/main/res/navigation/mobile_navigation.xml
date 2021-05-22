@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/newsFrag">
+
+    <fragment
+        android:id="@+id/newsFrag"
+        android:name="com.aditde.krishi.ui.news.HomeFragment"
+        android:label="@string/news_updates"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/reminderFrag"
+        android:name="com.aditde.krishi.ui.reminder.GalleryFragment"
+        android:label="Reminder"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/weatherFrag"
+        android:name="com.aditde.krishi.ui.weather.SlideshowFragment"
+        android:label="Weather"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/cropInfoFrag"
+        android:name="com.aditde.krishi.ui.fragments.CropInfo"
+        android:label="Crop Information"
+        tools:layout="@layout/fragment_crop_info" />
+
+    <fragment
+        android:id="@+id/sellCropsFrag"
+        android:name="com.aditde.krishi.ui.fragments.SellCrops"
+        android:label="Sell Crops"
+        tools:layout="@layout/fragment_sell_crops" />
+</navigation>

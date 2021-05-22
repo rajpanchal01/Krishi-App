@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "203996806664",
+    "project_id": "krishi-ad760",
+    "storage_bucket": "krishi-ad760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203996806664:android:a13b21166f432b07391bbd",
+        "android_client_info": {
+          "package_name": "com.aditde.krishi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203996806664-2987chg143g0tdfn7s0fe0ajbp2noa66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc-Hk-5ZwR89eTyPclOkB0QbYTtqxzWm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203996806664-2987chg143g0tdfn7s0fe0ajbp2noa66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

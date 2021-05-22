@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aditde.krishi">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ui.fragments.cropinfo.Rice"
+            android:parentActivityName=".MainActivityFarmer" />
+        <activity
+            android:name=".ui.fragments.cropinfo.Mustard"
+            android:parentActivityName=".MainActivityFarmer" />
+        <activity
+            android:name=".ui.fragments.cropinfo.Tea"
+            android:parentActivityName=".MainActivityFarmer" />
+        <activity
+            android:name=".ui.fragments.cropinfo.Millet"
+            android:parentActivityName=".MainActivityFarmer" />
+        <activity
+            android:name=".ui.fragments.cropinfo.Sugarcane"
+            android:parentActivityName=".MainActivityFarmer" />
+        <activity
+            android:name=".ui.fragments.cropinfo.Cotton"
+            android:parentActivityName=".MainActivityFarmer" />
+        <activity
+            android:name=".ui.fragments.cropinfo.Maize"
+            android:parentActivityName=".MainActivityFarmer" />
+        <activity
+            android:name=".ui.fragments.cropinfo.Wheat"
+            android:parentActivityName=".MainActivityFarmer" />
+
+        <activity android:name=".SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".MainActivityFarmer"
+            android:label="@string/title_activity_main_farmer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.reminder.AddReminderActivity"
+            android:label="Add Reminder"
+            android:parentActivityName=".MainActivityFarmer"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivityFarmer" />
+        </activity>
+
+        <provider
+            android:name=".ui.reminder.data.AlarmReminderProvider"
+            android:authorities="com.aditde.krishi"
+            android:exported="false" />
+
+        <service
+            android:name=".ui.reminder.reminder.ReminderAlarmService"
+            android:exported="false" />
+
+        <activity android:name=".Settings" />
+        <activity
+            android:name=".ui.news.NewsDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".EditProfile"
+            android:label="Profile"
+            android:parentActivityName=".MainActivityFarmer"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivityFarmer" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.CropInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="92dp">
+
+            <TextView
+                android:id="@+id/rice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="rice"
+                android:padding="20dp"
+                android:text="Rice"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/wheat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="wheat"
+                android:padding="20dp"
+                android:text="Wheat"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/maize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="maize"
+                android:padding="20dp"
+                android:text="Maize"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/cotton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="cotton"
+                android:padding="20dp"
+                android:text="Cotton"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/sugarcane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="sugarcane"
+                android:padding="20dp"
+                android:text="Sugarcane"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/millet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="millet"
+                android:padding="20dp"
+                android:text="Millet"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/tea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="tea"
+                android:padding="20dp"
+                android:text="Tea"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/mustard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#4CAF50"
+                android:gravity="center_horizontal"
+                android:onClick="mustard"
+                android:padding="20dp"
+                android:text="Mustard"
+                android:textColor="#090707"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
